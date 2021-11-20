@@ -1,118 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>        
-       <meta charset="utf-8" />
-        <title>CoNOCE MI GARAGE</title>
-        <style>
-            body {
-                background-color:cadetblue;               
-            }
-            img {
-                width: 10em;
-            }
-            form {
-                background-color: gray;
-                width: fit-content;
-                font-size: 2em;
-            }
-            .category-grid{
-                display: flex;
-                overflow: auto;
-                flex-wrap: nowrap;
-                max-width: 100%;
-                grid-auto-rows: 1fr;
-            }
-            .vehicle-content{
-                background-color:silver;
-                margin: 1em;
-                padding: 1em;
-            }
-            .vehicle-preview-content{
-              position: relative;
-              z-index: 2;
-              flex-direction: column;
-              justify-content: space-between
-            }
-            
-        </style>
-    </head>
-    <body>
-        <h1>CONOCE MI GARAGE</h1>
-
-<div class="category-grid">
-  
-    <div class="vehicle-content">
-        <a href="#">
-<div class="vehicle-preview-content">
-    <p class="vehicle-preview-name">
-        <span>GN125</span>
-    </p>
-    <p class="vehicle-preview-price">
-        <small>desde</small>
-        <span>$45000</span>
-    </p>
-    <div class="vehicle-preview-picture">
-        <img src="https://suzuki-motos.s3.amazonaws.com/assets/prod-publish/7674/gn125f.png" alt="imagen de una moto">
-    </div>
-</div>
-        </a>
-    </div>
-
-    <div class="vehicle-content">
-        <a href="#">
-<div class="vehicle-preview-content">
-    <p class="vehicle-preview-name">
-        <span>INTRUDER</span>
-    </p>
-    <p class="vehicle-preview-price">
-        <small>desde</small>
-        <span>$45000</span>
-    </p>
-    <div class="vehicle-preview-picture">
-        <img src="https://suzuki-motos.s3.amazonaws.com/assets/prod-publish/8165/hayabusa.png" alt="imagen de una moto">
-    </div>
-</div>
-        </a>
-    </div>
-
-    <div class="vehicle-content">
-        <a href="#">
-<div class="vehicle-preview-content">
-    <p class="vehicle-preview-name">
-        <span>S40</span>
-    </p>
-    <p class="vehicle-preview-price">
-        <small>desde</small>
-        <span>$45000</span>
-    </p>
-    <div class="vehicle-preview-picture">
-        <img src="https://suzuki-motos.s3.amazonaws.com/assets/prod-publish/7697/c50.png" alt="imagen de una moto">
-    </div>
-</div>
-        </a>
-    </div>
-
-    <div class="vehicle-content">
-        <a href="#">
-<div class="vehicle-preview-content">
-    <p class="vehicle-preview-name">
-        <span>GIXXER</span>
-    </p>
-    <p class="vehicle-preview-price">
-        <small>desde</small>
-        <span>$45000</span>
-    </p>
-    <div class="vehicle-preview-picture">
-        <img src="https://suzuki-motos.s3.amazonaws.com/assets/prod-publish/7688/gixxer-sf-250.png" alt="imagen de una moto">
-    </div>
-</div>
-        </a>
-    </div>
+<head>
+   <meta charset="utf-8" />
+    <title>Pilotos Formula 10</title>
+   <!-- <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1"/>  -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
 
+<style>
+body{
+	background-color: navy;
+	color: orangeRed;
+	width: 40em;	
+}
+h2 {
+margin: 1em 5em 1em 5em;
+}
+.monoplazaLeft {
+	background-color: orange;
+	margin: .5em 1em .5em 1em;
+	width: 20em;	
+}
+.monoplazaRight {
+	background-color: orange;
+	margin: .5em 1em .5em 1em;
+	width: 20em;
+}
+.imageDriver {
+	margin: 0em 1em 0em 1em;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: .2em;
+	border-color: silver;
+	height: 7em;	
+	background-color: white;
+}
+
+</style>
+</head> 
+
+<body>
+
+<h2>Pilotos Formula 111</h2>
+
+<div>
+<a href="#">
+<img class="monoplazaLeft" src="https://www.formula1.com/content/dam/fom-website/teams/2021/red-bull-racing.png.transform/3col/image.png">
+</a>
+<img class="imageDriver" src="https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col/image.png">
 </div>
 
+<div>
+<img class="imageDriver" src="https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col/image.png">
+<a href="#">
+<img class="monoplazaRight" src="https://www.formula1.com/content/dam/fom-website/teams/2021/mercedes.png.transform/4col/image.png">
+</a>
+</div>
 
-  
-   </body>
+<div>
+<a href="#">
+<img class="monoplazaLeft" src="https://www.formula1.com/content/dam/fom-website/teams/2021/alpine.png.transform/3col/image.png">
+</a>
+<img class="imageDriver" src="https://www.formula1.com/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col/image.png">
+</div>
+
+<div>
+<img class="imageDriver" src="https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/2col/image.png">
+<a href="#">
+<img class="monoplazaRight" src="https://www.formula1.com/content/dam/fom-website/teams/2021/ferrari.png.transform/3col/image.png">
+</a>
+</div>
+
+<div>
+<a href="#">
+<img class="monoplazaLeft" src="https://www.formula1.com/content/dam/fom-website/teams/2021/alphatauri.png.transform/4col/image.png">
+</a>
+<img class="imageDriver" src="https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/2col/image.png">
+</div>
+
+<div>
+<img class="imageDriver" src="https://www.formula1.com/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/2col/image.png">
+<a href="#">
+<img class="monoplazaRight" src="https://www.formula1.com/content/dam/fom-website/teams/2021/alfa-romeo-racing.png.transform/4col/image.png">
+</a>
+</div>
+
+</body>
 </html>
